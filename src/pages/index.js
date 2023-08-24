@@ -9,7 +9,13 @@ import Navbar from './navbar';
 export default function Home() {
   return (
     <>
-      <div>BOOOOOOM BAAAAAAM</div>
+    <Navbar/>
+
+    <div className='main-page'>
+      <div className='test'></div>
+      
+
+      </div>
     </>
   )
 }
