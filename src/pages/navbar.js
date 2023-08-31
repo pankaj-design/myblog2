@@ -4,14 +4,13 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <>
-    <header>
-      {/* <Image src= "/neomunsplash.jpg" alt="nav-image" priority="false" height='100' width="100"></Image> */}
-    <div className="main-nav">
-      <ul className="navul">
-      <li>
-      <Image src= "/neomunsplash.jpg" alt="nav-image" priority="false" height='30' width="100"></Image>
+    <nav className="main-header">
+    {/* <Image id="logo" src= "/neomunsplash.jpg" alt="nav-image" priority="false"  height='50' width="100"></Image> */}
 
-        </li>
+    <div className="main-nav">
+    <Image id="logo" src= "/neomunsplash.jpg" alt="nav-image" priority="false"  height='50' width="100"></Image>
+
+      <ul className="navul">
 
         <li>
           <Link id="nav-text" href="/">Home</Link>
@@ -26,9 +25,10 @@ const Navbar = () => {
         <li>
           <Link id="nav-text" href="/footer">Footer</Link>
         </li>
+        
       </ul>
     </div>
-    </header>
+    </nav>
 
     </>
   )

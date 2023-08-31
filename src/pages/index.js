@@ -4,18 +4,15 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
-import Navbar from './navbar';
+import Navbar from './navbar.js';
+import Hero from "./hero.js"
 
 export default function Home() {
   return (
     <>
     <Navbar/>
+    <Hero/>
 
-    <div className='main-page'>
-      <div className='test'></div>
-      
-
-      </div>
     </>
   )
 }

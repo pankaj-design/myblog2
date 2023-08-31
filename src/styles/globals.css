@@ -1,9 +1,9 @@
 :root {
-  --max-width: 1100px;
+  --max-width: 1200px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-    font-size: 66.5%;
+    font-size: 62.5%;
 
 }
 
@@ -14,41 +14,48 @@
   padding: 0%;
 
 }
-.main-page{
-  background-image: url(/neomunsplash.jpg);
-  height: 90rem;
-  width: 100%;
-  background-size: cover;
-}
-.test{
-  color: beige;
-}
-header{
+.home-main{
   display: flex;
+}
+
+/* Navigation bar start */
+.main-header{
+  /* border: 3px solid black; */
+  gap: 10%;
+  align-items: center;
+  background-color: rgb(126, 16, 229);
+  height: 7rem;
+  width:100vw;
+
+}
+#logo{
+  margin-top: 1rem;
+}
+.navul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap:15%;
+  margin-right: 15%;
+  margin-top: 2rem ;
+
+
+}
+
+#nav-text{
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  margin: 0 0.1rem;
+  background-color: rgb(79, 37, 117);
+  color: beige;
 }
 .main-nav{
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  background-color:black;
-  opacity: 100%;
-  /* border-radius: 20%; */
-}
-.navul{
-  display: flex;
-  list-style: none;
-  margin: 1rem;
-  width: 100%;
+  justify-content: space-between;
+  gap:10rem;
 
 }
-.navul li{
-  font-size: 2rem;
-  margin: 2rem 15rem;
-  text-decoration: none;
-  font-weight: 500;
-transition: all 0.3s;
-}
-#nav-text{
-  color:ghostwhite;
-  opacity: 100%;
-}
+
+/* Navigation bar end */
