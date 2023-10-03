@@ -8,8 +8,7 @@
 }
 
 *{
-  /* background-color:azure; */
-  /* border: 3px solid red; */
+  
   margin-top: 0%;
   padding: 0%;
 
@@ -19,13 +18,12 @@
 }
 
 /* Navigation bar start */
-.main-header{
-  /* border: 3px solid black; */
-  gap: 10%;
+ .main-header{
+  gap: 20%;
   align-items: center;
   background-color: rgb(126, 16, 229);
   height: 7rem;
-  width:100vw;
+ min-width:100%;
 
 }
 #logo{
@@ -56,6 +54,21 @@
   justify-content: space-between;
   gap:10rem;
 
+}
+@media screen and (max-width: 800px ){
+  .main-header{
+min-width: 100%;
+  }
+
+  .main-nav{
+    min-width: 4rem;
+gap:2rem;
+  }
+  #nav-text{
+font-weight: 400;
+font-size: 1.5rem;
+padding: .5rem 1rem;
+  }
 }
 
 /* Navigation bar end */

@@ -2,7 +2,7 @@
 const Hero = () => {
   return (
 <>
-<div className="main-page">Contrar nouowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwncowwwwwwwwwwwwwwwwwwwwwwwwwwwwwieeeeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
+<div className="main-page">Contrar nouowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwfff</div>
 </>
   )
 }

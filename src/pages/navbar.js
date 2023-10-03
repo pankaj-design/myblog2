@@ -5,11 +5,9 @@ const Navbar = () => {
   return (
     <>
     <nav className="main-header">
-    {/* <Image id="logo" src= "/neomunsplash.jpg" alt="nav-image" priority="false"  height='50' width="100"></Image> */}
 
     <div className="main-nav">
-    <Image id="logo" src= "/neomunsplash.jpg" alt="nav-image" priority="false"  height='50' width="100"></Image>
-
+    <Image id="logo" src= "/sunder-unsplash.jpg" alt="nav-image" priority="false"  height='50' width="100"></Image>
       <ul className="navul">
 
         <li>
@@ -29,6 +27,7 @@ const Navbar = () => {
       </ul>
     </div>
     </nav>
+
 
     </>
   )
