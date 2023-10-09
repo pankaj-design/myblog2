@@ -19,6 +19,7 @@
 
 /* Navigation bar start */
  .main-header{
+  position: fixed;
   gap: 20%;
   align-items: center;
   background-color: rgb(126, 16, 229);
@@ -55,6 +56,7 @@
   gap:10rem;
 
 }
+
 @media screen and (max-width: 800px ){
   .main-header{
 min-width: 100%;
@@ -69,6 +71,72 @@ font-weight: 400;
 font-size: 1.5rem;
 padding: .5rem 1rem;
   }
+}
+.button{
+  display: none;
+  font-size: large;
+  color: #df0a0a;
+  position: absolute;
+  left: 290px;
+    bottom: 10%;
+}
+
+
+@media screen and (max-width : 500px) {
+  .button{
+    display: flex;
+  }
+  .navul{
+    flex-direction: column;
+    gap:45%;
+    position: relative;
+    height: 48rem;
+    top:11rem;
+    right: 20%;
+    background-color: aqua;
+    width: 65rem;
+  }
+  .navbar-open{
+    background-color: black;
+    color:darkgreen;
+    display:none;
+
+  }
+  .navbar-closed {
+    background-color: #060606;
+    border: 1px solid #ddd;
+  }
+  #nav-text{
+    margin: 2rem -4rem;
+    padding: 2rem 14rem;
+  }
+  .pose1{
+    position: absolute;
+    margin: 5% 15%;
+    top:5rem;
+    right:20rem ;
+  }
+  .pose2{
+    position: absolute;
+    top:15rem;
+    right:20rem ;
+  }
+  .pose3{
+    position: absolute;
+    top:25rem;
+    right:20rem
+  }
+  .pose-change{
+    display: none
+  }
+  .pose4{
+    position: absolute;
+    top:35rem;
+    right:20rem
+  }
+
+  
+
 }
 
 /* Navigation bar end */
