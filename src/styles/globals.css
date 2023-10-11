@@ -95,6 +95,11 @@ padding: .5rem 1rem;
     right: 20%;
     background-color: aqua;
     width: 65rem;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   .navbar-open{
     background-color: black;
@@ -107,14 +112,17 @@ padding: .5rem 1rem;
     border: 1px solid #ddd;
   }
   #nav-text{
-    margin: 2rem -4rem;
     padding: 2rem 14rem;
+    padding-left: 12rem;
+    left:14%;
+    border-radius: 3%;
   }
   .pose1{
     position: absolute;
-    margin: 5% 15%;
+    margin: 5% 5%;
     top:5rem;
     right:20rem ;
+    text-align: center;
   }
   .pose2{
     position: absolute;
