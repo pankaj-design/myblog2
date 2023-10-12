@@ -35,8 +35,8 @@ const Navbar = () => {
         
       </ul>
       <div className='button'  onClick={toggleNavbar}>
-      {/* <BiMenuAltRight size={"5rem"} color='white'/> */}
-    <Image id="" src= "/menuGrad.png" alt="image" priority="false"  height='55' width="40"></Image>
+      <BiMenuAltRight size={"5rem"} color='white'/>
+    {/* <Image id="" src= "/menuGrad.png" alt="image" priority="false"  height='55' width="40"></Image> */}
       
         </div>
     </div>
